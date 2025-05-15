@@ -1,0 +1,28 @@
+{
+  "name": "temp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "class-transformer": "^0.5.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "lite-server": "^2.6.1",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.4",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.17.7",
+    "lodash": "^4.17.21",
+    "reflect-metadata": "^0.2.2"
+  }
+}
